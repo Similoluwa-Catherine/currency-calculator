@@ -6,23 +6,23 @@
     box-sizing: border-box;
 }
 
-/* Splash screen */
+/* index */
 
-.splash-body {
+.index-body {
     text-align: center;
     padding: 105px 35px;
     background-color: #181f2a;
     font-family: 'Open Sans';
 }
 
-.splash-h2 {
+.index-h2 {
     color:#fff;
     font-size: 22px;
     font-weight: 700;
     margin-top: 50px;
 }
 
-.splash-p {
+.index-p {
     color: #fff;
     margin-top: 10px;
     font-size: 14px;
@@ -185,8 +185,8 @@ button:focus {
 }
 
 @media screen and (min-width: 1000px) {
-    /* splash screen*/
-    .splash-body {
+    /* index*/
+    .index-body {
         padding: 100px 25px 0;
     }
 
@@ -194,11 +194,11 @@ button:focus {
         width: 40vw;
     }
 
-    .splash-h2 {
+    .index-h2 {
         font-size: 25px;
     }
 
-    .splash-p {
+    .index-p {
         font-size: 18px;
         padding: 0 290px;
         line-height: 28px;
