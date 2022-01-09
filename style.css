@@ -34,20 +34,16 @@ img {
 }
 
 .start-btn {
-    padding: 8px 15px;
+    padding: 10px 15px;
     margin-top: 35px;
     font-size: 18px;
     font-weight: 700;
     background-color: #2b2bffd8;
+    color: #fff;
     border: none;
     border-radius: 10px;
     box-shadow: 0 2px #fff;
     cursor: pointer;
-}
-
-.start-btn a {
-    text-decoration: none;
-    color: #fff;
 }
 
 /* Homepage */
@@ -63,26 +59,27 @@ img {
     color: #fff;
 } 
 
-ul{
-    margin-top: 100px;
+.btn-container{
+    margin-top: 70px;
     text-align: left;
+    display: flex;
+    flex-direction: column;
 }
 
-li {
-    list-style: none;
+.home-btn {
+    color: #fff;
     background-color: #2b2bffd8;
     border: 2px solid #fff;
     border-radius: 10px;
     box-shadow: 0 2px #fff;
-    margin-top: 15px;
-    padding: 8px;
-}
-
-li a {
-    color: #fff;
     text-decoration: none;
-    font-size: 16px; 
+    font-size: 18px; 
     font-weight: 600;
+    text-align: left;
+    margin-top: 15px;
+    padding: 12px;
+    width: 100%;
+    cursor: pointer;
 }
 
 /* Converter */
@@ -219,18 +216,16 @@ button:focus {
         font-size: 35px;
     }
 
-    ul {
+    .btn-container {
         text-align: center;
         padding: 0 400px;
     }
 
-    li {
+    .home-btn {
         margin-top: 25px;
-        padding: 12px 8px;
-    }
-
-    li a {
+        padding: 14px 8px;
         font-size: 20px;
+        text-align: center;
     }
 
     /* converter */
