@@ -26,6 +26,7 @@ function getConversionRate() {
     .catch(error => {
         console.log(error);
     });
+
 }
 
 function calculate() {
@@ -36,6 +37,7 @@ function calculate() {
 
 firstCurrency.addEventListener("change", getConversionRate);
 secondCurrency.addEventListener("change", getConversionRate);
+
 
 amount1.addEventListener("input", calculate);
 amount2.addEventListener("input", calculate);
