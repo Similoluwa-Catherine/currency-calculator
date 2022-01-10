@@ -22,6 +22,9 @@ function getConversionRate() {
     .then((data) => {
       conversionRate = data.conversion_rates[currencyTwo];
       calculate();
+    })
+    .catch(error => {
+        console.log(error);
     });
 }
 
