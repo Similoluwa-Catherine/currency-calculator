@@ -4,6 +4,7 @@ const amount1 = document.getElementById("amount1");
 const amount2 = document.getElementById("amount2");
 const rateEl = document.getElementById("rate");
 const swapBtn = document.getElementById("swap");
+const resetBtn = document.getElementById("reset_btn");
 
 let conversionRate;
 
@@ -42,6 +43,11 @@ swapBtn.addEventListener("click", () => {
   secondCurrency.value = temp;
   getConversionRate();
 });
+
+resetBtn.addEventListener("click", () => {
+    amount1.value = 1;
+    getConversionRate();
+})
 
 getConversionRate();
 
