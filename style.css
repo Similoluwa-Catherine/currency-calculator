@@ -46,42 +46,6 @@ img {
     cursor: pointer;
 }
 
-/* Homepage */
-
-.home-body {
-    padding: 50px 25px;
-    background-color: #181f2a;
-    font-family: 'Open Sans';
-}
-
-.home-heading {
-    font-size: 25px;
-    color: #fff;
-} 
-
-.btn-container{
-    margin-top: 70px;
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-}
-
-.home-btn {
-    color: #fff;
-    background-color: #2b2bffd8;
-    border: 2px solid #fff;
-    border-radius: 10px;
-    box-shadow: 0 2px #fff;
-    text-decoration: none;
-    font-size: 18px; 
-    font-weight: 600;
-    text-align: left;
-    margin-top: 15px;
-    padding: 12px;
-    width: 100%;
-    cursor: pointer;
-}
-
 /* Converter */
 
 .converter-body {
@@ -91,17 +55,16 @@ img {
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    color: #fff;
-    font-weight: 700;
-    font-size: 20px;
     margin-top: 10px;
 }
 
 header a {
     text-decoration: none;
     color: #fff;
+}
+
+.header-icon {
+    float: left;
 }
 
 .converter-p {
@@ -182,23 +145,6 @@ button:focus {
     outline: 0;
 }
 
-/* about */
-
-.about-body {
-    padding: 20px 25px;
-    background-color: #181f2a;
-    font-family: 'Open Sans';
-}
-
-.version {
-    text-align: center;
-    margin-top: 180px;
-    color: #fff;
-}
-
-.version-p {
-    margin-top: 10px;
-}
 
 @media screen and (min-width: 1000px) {
     /* index*/
@@ -226,27 +172,6 @@ button:focus {
         padding: 12px 15px;
     }
 
-    /* Homepage */
-    .home-body {
-        text-align: center;
-    }
-
-    .home-heading {
-        font-size: 35px;
-    }
-
-    .btn-container {
-        text-align: center;
-        padding: 0 400px;
-    }
-
-    .home-btn {
-        margin-top: 25px;
-        padding: 14px 8px;
-        font-size: 20px;
-        text-align: center;
-    }
-
     /* converter */
     .converter-body {
         text-align: center;
@@ -258,7 +183,6 @@ button:focus {
 
     .converter-p {
         font-size: 18px;
-        margin-top: 100px;
     }
 
     .swap-rate-container {
@@ -275,11 +199,6 @@ button:focus {
     .reset-btn {
         width: 14%;
         padding: 8px 12px;
-    }
-
-    /* about */
-    .about-body {
-        text-align: center;
     }
 }
 
